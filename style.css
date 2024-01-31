@@ -1,0 +1,245 @@
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(images/achtergrond.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 2em;
+    }
+    
+li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 3em;
+    transition: all 250ms ease-out;
+}
+
+.active a{
+    color: #4c50c2;
+}
+
+ul a:hover{
+    color: #4c50c2;
+    font-size: 4em;
+}
+
+ul a:focus{
+    color: #4c50c2;
+    font-size: 4em;
+}
+
+h1{
+    font-size: 8em;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #4c50c2;
+    text-align: left;
+    margin: 1em 0 0 0.35em;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    color: #4c50c2;
+    text-align: left;
+    word-spacing: 0.1em;
+    margin: 0em 0em 6em 1em;
+}
+
+section{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 0 3em 3em;
+}
+
+section img{
+    width: 30%;
+    height: auto;
+}
+
+.first-article{
+    padding-left: 1em;   
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 162, 117, 0.8);
+}
+
+.first-article h3{
+    font-size: 4em;
+    margin: 0.5em 0 0.2em 0;
+}
+
+.first-article p{
+    font-size: 2em;
+    margin: 0em;
+    line-height: 1.5em;
+}
+
+div a{
+    text-decoration: underline;
+    color: black;
+    font-size: 2em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.verwijzing{
+    margin-left: 1em;
+    background-color: rgb(25, 162, 117, 0.8);
+    margin-right: 1em;
+    padding: 0em 2em;
+}
+
+.verwijzing h3{
+    font-size: 4em;
+    margin-bottom: 0.1em;
+}
+
+.verwijzing p{
+    font-size: 1.5em;
+}
+
+
+footer{
+    background-color: #393db4de;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+
+
+/* Hieronder komt de about page */
+
+.about-us p{
+    background-color: rgb(25, 162, 117, 0.8);
+    margin: 0em;
+    margin-bottom: 1em;
+    padding: 1em;
+    font-size: 3em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.about-us img{
+    width: 100%; 
+}
+
+.about-us h2{
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.contact ul{
+    list-style-type: none;
+    background-color: rgba(25, 162, 117, 0.8);
+    display: block;
+    margin: -1em 0em 1em;
+    padding-bottom: 1em;
+    font-size: 3em;
+    text-align: center;
+    }
+
+.about-us footer p{
+    font-size: 1em;
+    background: none;
+    margin: 0;
+}
+    
+/* Hieronder komt de latest releases page*/
+
+.releases-pagina img{
+    width: 18em;
+    height: auto;
+}
+
+.muziek{
+    background-color: rgba(25, 162, 117, 0.8);
+    font-size: 1.5em;
+    padding:0.5em 1em 0.5em 2em;
+}
+
+.muziek h3{
+    margin: 0.20em 0em;
+    font-size: 2em;
+}
+
+.muziek p{
+    margin-top: 0em;
+}
+
+/* Hieronder komt de artists page */
+
+.artists-page img{
+    width: 20em;
+    height: auto;
+}
+
+.artist{
+    background-color: rgba(25, 162, 117, 0.8);
+    font-size: 1.5em;
+    padding:0.5em 1em 0.5em 2em;
+}
+
+.artist h3{
+    font-size: 2.5em;
+    margin: 0.20em 0em 0em;
+}
+
+.leeftijd{
+    font-style: italic;
+    font-weight: 200;
+    margin: 0%;
+}
+
+/* Hieronder komt de page van Frankie Knuckles*/
+
+.frankie h2{
+    margin-bottom: 2em;
+}
+
+.frankie img{
+    width: 50%;
+    height: auto;
+    padding: 0em 23em;
+}
+
+.frankie article{
+    background-color: rgba(25, 162, 117, 0.8);
+}
+
+.frankie h3{
+    font-size: 3em;
+    margin-bottom: 0em;
+    padding: 0.5em 0.5em 0em 0.5em;
+}
+
+.frankie p{
+    font-size: 1.5em;
+    padding: 0 0.5em 0.5em 1em;
+}
+
+.frankie footer p{
+    font-size: 1em
+}
+
+ol{
+    font-size: 3em;
+    margin-top: 0.5em;
+    margin-left: 2em;
+    padding-bottom: 2em;
+}
